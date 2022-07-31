@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-dark block py-6">Mudbloods</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About Me</a>
+                </li>
+                <li class="group">
+                  <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Product</a>
+                </li>
+                <li class="group">
+                  <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                </li>
+                <li class="group">
+                  <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">Hello Everyone😊, My Name is <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Raihan Qhaisa</span></h1>
+            <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Pirates & <span class="text-dark">Wizards</span></h2>
+            <p class="font-medium text-secondary mb-10 leading-relaxed">Welcome To My Website</p>
+
+            <a href="tel:08985485400" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact Me</a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img src="dist/img/Raihan__4_-removebg-preview.png" alt="Raihan" class="max-w-full mx auto" />
+              <span class="absolute bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                <svg width="400" height="350" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#14b8a6"
+                    d="M44.7,-23.8C47.9,-4.6,33.6,11,17.2,22.8C0.7,34.6,-17.9,42.5,-29.8,35.2C-41.6,28,-46.6,5.6,-40.5,-17.5C-34.4,-40.7,-17.2,-64.5,1.8,-65.1C20.7,-65.7,41.4,-42.9,44.7,-23.8Z"
+                    transform="translate(100 120) scale(1.5)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section start -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">about me</h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">The Thing I like Most is Biking in The Rain</h2>
+            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">I'm Raihan,a Web development, Based in Indonesia, who's passionate about creating digital experiences through problem solving. i'm all about combining visual design with product thinking to bring meaningful experiences </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Let's be friends</h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg"></p>
+            <div class="flex items-center">
+              <!-- Tweeter -->
+              <a href="https://twitter.com/Dhoughnuts" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white"
+                ><svg role="img" width="25" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Twitter</title>
+                  <path
+                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                  />
+                </svg>
+              </a>
+              <!-- Instagram -->
+              <a href="https://instagram.com/mudbloods" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white"
+                ><svg role="img" width="25" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+              <!-- Tiktok -->
+              <a href="https://tiktok.com/@dhoughnut666" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white"
+                ><svg role="img" width="25" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>TikTok</title>
+                  <path
+                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                  />
+                </svg>
+              </a>
+
+              <!-- Spotify -->
+              <a
+                href="https://open.spotify.com/playlist/5QnitlzuHP72qDVkkWqFEg?si=4ekzl-vRRbWIPKHylxcwaw&utm_source=copy-link"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white"
+                ><svg role="img" width="25" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Spotify</title>
+                  <path
+                    d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg uppercase text-primary mb-2">Product</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Gallery</h2>
+            <p class="font-medium text-md text-dark md:text-lg">Some of things I like are listening to songs, Reading Comics, watching movies and Riding a Bicycle</p>
+          </div>
+        </div>
+
+        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/Gambar/1.png" alt="Fixed gear" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3"> What Does Fixed Gear Mean?</h3>
+            <p class="font-medium text-base text-secondary">Well, it means that the cog is directly tied to the motion of the pedals. Let me explain. You know that little gear thing attached to the back wheel?  It has a bunch of 'teeth' on it and the chain rotates around it? That's the cog. On a fixed gear bike, that piece doesn't have a bearing in it and it is fixed to the back wheel. Typically, these cogs would have a ball bearing system to allow the wheel to spin independently of the cog. On a fixed gear bike, this isn't so.
+
+              So, on our bikes, if you pedal forward, the bike moves forward. If you pedal backwards, the bike moves backwards.</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/Gambar/bmth.png" alt="BMTH" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">BMTH</h3>
+            <p class="font-medium text-base text-secondary">Bring Me the Horizon (often abbreviated as BMTH) are a British rock band formed in Sheffield in 2004. The group consists of lead vocalist Oliver Sykes, guitarist Lee Malia, bassist Matt Kean, drummer Matt Nicholls and keyboardist Jordan Fish. They are signed to RCA Records globally and Columbia Records exclusively in the United States.
+
+              The band released their debut album Count Your Blessings in 2006. Upon release, the album's sound polarised listeners, and was met with critical disdain. The band began to break away from their controversial sound with Suicide Season (2008), which was a creative, critical and commercial turning point for the band.</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/Gambar/No way home wallpapers.jpg" alt="Spiderman No Way Home" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Spiderman No Way Home</h3>
+            <p class="font-medium text-base text-secondary">Spider-Man is a superhero who appears in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Steve Ditko. the movie was good and i never forget when Spider on the wall said "I love you even though you don't feel the same way"</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/Gambar/4.png" alt="Tokyo Manji Manga" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Tokyo Manji Manga</h3>
+            <p class="font-medium text-base text-secondary"> What if Tokyo Revenger ends we have Mikey becoming a bad guy, and later on a becomes a teacher who teaches deliquents about revenge, and Takemichi smiles at him and says "this is truly tokyo revengers"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Clients Section Start -->
+    <section id="clients" class="pt-36 pb-32 bg-slate-800">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+            <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">The Company I once worked with</h2>
+            <p class="font-medium text-md text-secondary md:text-lg">I was a FilmMaker on Netflix and a Movie editor on Marvel and became the brand ambassador Converse and then being Jungler of Alterego eSports.</p>
+          </div>
+        </div>
+
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a href="" class="max-w-[100px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="dist/img/clients/alterego.png" alt="alterego" />
+            </a>
+            <a href="" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="dist/img/clients/marvel.png" alt="Marvel" />
+            </a>
+            <a href="" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="dist/img/clients/converseasli.png" alt="Converse" />
+            </a>
+            <a href="" class="max-w-[120px] mx-4 py-4 whitespace-normal opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="dist/img/clients/netflix.png" alt="Netflix" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Section End -->
+
+    <!-- Blog Section Start -->
+    <section id="blog" class="pt-36 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold uppercase text-lg text-primary mb-2">Blog</h4>
+            <h2 class="font-bold uppercase text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">A Recent blog</h2>
+            <p class="font-medium text-md text-secondary md:text-lg"></p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img src="https://source.unsplash.com/360x200?programming" alt="Programming" class="w-full" />
+              <div class="py-8 px-6">
+                <h3>
+                  <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Programming</a>
+                </h3>
+                <p class="font-medium text-base text-secondary mb-6">You are still wondering, what is programming? Simply put, programming is a process to create programs on a computer. The program created can be in the form of software, websites, android applications, etc.</p>
+                <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img src="https://source.unsplash.com/360x200?cigar" alt="cigar" class="w-full" />
+              <div class="py-8 px-6">
+                <h3>
+                  <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Wanna look like a Gangster?</a>
+                </h3>
+                <p class="font-medium text-base text-secondary mb-6">ngisep cerutu biar kaya Thomas slebew🥶🥶🥶. langsung ae klik tombol button dibawah kalo penasaran</p>
+                <a href="https://instagram.com/folksmarknad_id" target="_blank" class="font-medium uppercase text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Naufal cerutu</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img src="https://source.unsplash.com/360x200?fixedgear" alt="fixedgear" class="w-full" />
+              <div class="py-8 px-6">
+                <h3>
+                  <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">How to skid on a fixed gear</a>
+                </h3>
+                <p class="font-medium text-base text-secondary mb-6">The skid is a major fixed gear feature that is primordial to master.
+                  Skidding consists in blocking the rear wheel with the pedals to make it drift.
+                  
+                  There’s two kinds of skids, with or without straps</p>
+                <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Section end -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Contact Me</h2>
+            <p class="font-medium text-md text-secondary md:text-lg"></p>
+          </div>
+        </div>
+
+        <form>
+          <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+              <label for="name" class="text-base font-bold text-primary">Name</label>
+              <input type="text" id="Name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="Email" class="text-base font-bold text-primary">Email</label>
+              <input type="text" id="Email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="Message" class="text-base font-bold text-primary">Message</label>
+              <textarea type="text" id="Message" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+            </div>
+            <div class="w-full px-4">
+              <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- footer Start -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">Mudbloods</h2>
+            <h3 class="font-bold text-2xl mb-2">Contact me</h3>
+            <p>mudbloodstrash@gmail.com</p>
+            <p>jl.Hogwarts RT 69. Kab Bogor</p>
+            <p>Cibinong</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Blog Category</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#" class="inline-block text-base hover:text-primary mb-3">Programming</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block text-base hover:text-primary mb-3">Sport</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block text-base hover:text-primary mb-3">Thug life</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Link</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#home" class="inline-block text-base hover:text-primary mb-3">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="inline-block text-base hover:text-primary mb-3">About Me</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="inline-block text-base hover:text-primary mb-3">Product</a>
+              </li>
+              <li>
+                <a href="#clients" class="inline-block text-base hover:text-primary mb-3">Clients</a>
+              </li>
+              <li>
+                <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Blog</a>
+              </li>
+                <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-x-slate-700">
+          <div class="flex items-center justify-center mb-5">
+            <!-- Tweeter -->
+            <a href="https://twitter.com/Dhoughnuts" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white"
+              ><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Twitter</title>
+                <path
+                  d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                />
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://instagram.com/mudbloods" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white"
+              ><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Instagram</title>
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+            <!-- Tiktok -->
+            <a href="https://tiktok.com/@dhoughnut666" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white"
+              ><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>TikTok</title>
+                <path
+                  d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                />
+              </svg>
+            </a>
+
+          </div>
+          <p class="font-medium text-sm text-slate-500 text-center">Dibuat Oleh <a href="http://instagram.com/mudbloods" target="_blank" class="font-bold text-primary"> Raihan Qhaisa Rahman <a/> </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer End -->
+    
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
